@@ -1,14 +1,7 @@
 'use client';
 import React from "react";
 
-/**
- * DarkModeToggle
- * - Tailwind required with `darkMode: "class"` in tailwind.config.js
- * - Persists choice in localStorage (key: "theme")
- * - Initializes from system preference if no stored choice
- * - Accessible: role="switch", aria-checked, focus styles, keyboard/Pointer friendly
- * - Animations: smooth translate, subtle glow
- */
+
 export default function DarkModeToggle() {
   const [isDark, setIsDark] = React.useState<boolean | null>(null);
 
@@ -28,7 +21,6 @@ export default function DarkModeToggle() {
     root.classList.toggle("dark", prefersDark);
   }, []);
 
-  // Optional: react to system changes IF the user hasn't chosen manually yet
   React.useEffect(() => {
     const media = window.matchMedia("(prefers-color-scheme: dark)");
     const onChange = (e: MediaQueryListEvent) => {
@@ -55,7 +47,7 @@ export default function DarkModeToggle() {
     localStorage.setItem("theme", next ? "dark" : "light");
   };
 
-  if (isDark === null) return null; // avoid hydration mismatch
+  if (isDark === null) return null;
 
   return (
     <button
