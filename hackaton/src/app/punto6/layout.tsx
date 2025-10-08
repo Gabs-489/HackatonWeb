@@ -9,7 +9,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-  <html>
+  <html lang="en">
       <body >
         <HeaderPunto6 />
         <main className="min-h-screen px-4 md:px-8">{children}</main>
