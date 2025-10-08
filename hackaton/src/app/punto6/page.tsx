@@ -12,10 +12,8 @@ export default function punto6() {
     const [paragraphs, setParagraphs] = useState(0)
     const [description, setDescription] = useState("")
 
-    const ActualizarDatos = (des: String ){
+    const ActualizarDatos = (des: string) => {
         setDescription(des);
-        
-
     }
 
 
@@ -39,7 +37,11 @@ export default function punto6() {
 
         <div>
             <form action="">
-                <textarea onChange={actual} placeholder='Paste ypur text here'/>
+                <textarea 
+                    onChange={(e) => ActualizarDatos(e.target.value)} 
+                    placeholder='Paste your text here'
+                    value={description}
+                />
             </form>
         </div>
         </main>
