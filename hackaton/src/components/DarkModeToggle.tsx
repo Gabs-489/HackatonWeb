@@ -55,7 +55,7 @@ export default function DarkModeToggle() {
     localStorage.setItem("theme", next ? "dark" : "light");
   };
 
-  if (isDark === null) return null; // avoid hydration mismatch
+  if (isDark === null) return null;
 
   return (
     <button
