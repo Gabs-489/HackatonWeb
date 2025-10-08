@@ -1,0 +1,44 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "text": "El éxito no es la clave de la felicidad. La felicidad es la clave del éxito. Si amas lo que haces, tendrás éxito.",
+      "author": "Albert Schweitzer"
+    },
+    {
+      "id": 2,
+      "text": "La vida es lo que pasa mientras estás ocupado haciendo otros planes.",
+      "author": "John Lennon"
+    },
+    {
+      "id": 3,
+      "text": "El futuro pertenece a aquellos que creen en la belleza de sus sueños.",
+      "author": "Eleanor Roosevelt"
+    },
+    {
+      "id": 4,
+      "text": "No es lo que nos pasa, sino cómo reaccionamos a lo que nos pasa lo que marca la diferencia.",
+      "author": "Epicteto"
+    },
+    {
+      "id": 5,
+      "text": "La única forma de hacer un gran trabajo es amar lo que haces.",
+      "author": "Steve Jobs"
+    },
+    {
+      "id": 6,
+      "text": "En medio de la dificultad reside la oportunidad.",
+      "author": "Albert Einstein"
+    },
+    {
+      "id": 7,
+      "text": "La creatividad es la inteligencia divirtiéndose.",
+      "author": "Albert Einstein"
+    },
+    {
+      "id": 8,
+      "text": "Sé tú mismo; todos los demás ya están tomados.",
+      "author": "Oscar Wilde"
+    }
+  ]
+}
