@@ -1,4 +1,4 @@
-##Integrantes:
+## Integrantes:
 * Angie Gutierrez
 * Angel Peñaranda
 * Juliana Ferreira
