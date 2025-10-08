@@ -6,14 +6,17 @@ const HeaderPunto6 = () => {
   return (
     <header className="bg-gray-800 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
-        {/* We use Link for the link to the home page */}
+        <nav className="flex justify-between items-center w-full">
           <span className="text-xl font-bold">Text Analyser</span>
-          <Newspaper className="w-6 h-6 hover:text-gray-800 transition-colors" />
-          <Twitter className="w-6 h-6 hover:text-blue-500 transition-colors" />
-          <Linkedin className="w-6 h-6 hover:text-blue-700 transition-colors" />
-
+          <div className="flex space-x-4">
+            <Newspaper className="w-6 h-6 hover:text-gray-300 transition-colors" />
+            <Twitter className="w-6 h-6 hover:text-blue-400 transition-colors" />
+            <Linkedin className="w-6 h-6 hover:text-blue-600 transition-colors" />
+          </div>
+        </nav>
       </div>
     </header>
+
   );
 };
 
